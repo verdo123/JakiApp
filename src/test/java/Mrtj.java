@@ -53,7 +53,7 @@ public class Mrtj {
         MobileElement route = (MobileElement) driver.findElementById("id.go.jakarta.smartcity.jaki:id/code_view");
         route.click();
 
-        List<MobileElement> listOfRoute = driver.findElements(MobileBy.xpath("(//div[@class='android.widget.LinearLayout']"));
+        List<MobileElement> listOfRoute = driver.findElements(MobileBy.xpath("(//widget[@class='android.widget.LinearLayout']"));
 
         for (int i = 0; i < listOfRoute.size(); i++) {
             System.out.println(listOfRoute.get(i).getText());
